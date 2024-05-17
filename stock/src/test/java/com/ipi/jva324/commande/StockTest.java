@@ -21,7 +21,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ExtendWith(SpringExtension.class) // Junit 4 : @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Import(Jva324Application.class)
-public class CommandeTest {
+public class StockTest {
 
     /** TODO rm, pas utile ici */
     @Value(value="${local.server.port}")
