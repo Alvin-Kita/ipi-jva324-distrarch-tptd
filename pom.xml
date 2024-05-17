@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ipi.jva324</groupId>
-	<artifactId>jva324</artifactId>
+	<artifactId>stock</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -19,8 +19,8 @@
 	<modules>
 		<!-- module>discovery</module -->
 		<module>commande</module>
-		<!-- module>stock</module>
-		<module>gateway</module -->
+		<module>stock</module>
+		<!--module>gateway</module -->
 	</modules>
 
 </project>
