@@ -1,6 +1,6 @@
-package com.ipi.jva324.commande;
+package com.ipi.jva324.stock;
 
-import com.ipi.jva324.Jva324Application;
+import com.ipi.jva324.StockApplication;
 import com.ipi.jva324.commande.model.Commande;
 import com.ipi.jva324.commande.service.CommandeInvalideException;
 import com.ipi.jva324.commande.service.CommandeService;
@@ -20,7 +20,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class) // Junit 4 : @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@Import(Jva324Application.class)
+@Import(StockApplication.class)
 public class StockTest {
 
     /** TODO rm, pas utile ici */

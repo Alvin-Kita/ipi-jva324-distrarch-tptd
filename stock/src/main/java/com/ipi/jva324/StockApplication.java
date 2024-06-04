@@ -16,10 +16,10 @@ import java.util.Arrays;
 import java.util.Collections;
 
 @SpringBootApplication
-public class Jva324Application {
+public class StockApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Jva324Application.class, args);
+		SpringApplication.run(StockApplication.class, args);
 	}
 
 	@Bean
